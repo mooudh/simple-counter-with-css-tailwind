@@ -7,7 +7,6 @@ const counterStore = useCounterStore();
 <template>
   <div>
     <nav>
-      <!-- <error-dialogue>Are you sure?</error-dialogue> -->
       <ul class="nav">
         <li>
           <a href="#">
@@ -19,21 +18,7 @@ const counterStore = useCounterStore();
   </div>
 </template>
 
-<style>
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-html {
-  background: #f7f7f7
-    url(https://css-tricks.com/examples/RoundButtons/images/bg.png) repeat
-    center top;
-}
-
+<style scoped>
 .nav {
   list-style: none;
   text-align: center;

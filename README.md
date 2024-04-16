@@ -2,6 +2,8 @@
 
 This template should help get you started developing with Vue 3 in Vite.
 
+![image info](./public/tailwind.jpg)
+
 ## Introduction
 
 a simple counter has created with Vuejs with two different style:
